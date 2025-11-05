@@ -364,3 +364,7 @@ export async function generateStaticParams() {
     slug: slug,
   }))
 }
+
+// Force static generation for better performance
+export const dynamic = 'force-static'
+export const revalidate = false

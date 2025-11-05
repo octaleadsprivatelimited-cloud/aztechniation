@@ -8,6 +8,10 @@ export const metadata = {
   description: 'Professional washing machine repair service in Hyderabad. We repair Samsung, LG, Whirlpool, IFB, Bosch washing machines. Same-day service available in HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar. Call +91 91821 07334.',
 }
 
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
+
 export default function WashingMachineRepair() {
   const services = [
     'Drum Repair & Replacement',

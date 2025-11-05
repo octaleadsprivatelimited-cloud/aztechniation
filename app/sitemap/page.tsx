@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: 'Complete sitemap of AZ technician website. Find all pages and services easily with our comprehensive site navigation.',
 }
 
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
+
 const Sitemap = () => {
   const mainPages = [
     { name: 'Home', href: '/', description: 'Main homepage with service overview' },

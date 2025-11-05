@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   },
 }
 
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
+
 export default function VoltasACRepairPage() {
   const whatsappMessage = 'Hi! I need help with Voltas AC repair in Hyderabad. Please provide me with a quote and schedule a service.'
 

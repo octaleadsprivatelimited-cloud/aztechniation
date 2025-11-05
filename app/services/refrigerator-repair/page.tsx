@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   description: 'Professional refrigerator repair service in Hyderabad. We repair Samsung, LG, Whirlpool, Godrej refrigerators. Same-day service available in HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar. Call +91 91821 07334.',
 }
 
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
+
 const refrigeratorBrands = [
   'Samsung', 'LG', 'Whirlpool', 'Godrej', 'Haier', 'Panasonic', 'TCL', 'Videocon', 'Intex', 'Onida'
 ]

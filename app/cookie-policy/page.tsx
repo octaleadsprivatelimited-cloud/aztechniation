@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: 'Learn about how AZ technician uses cookies and similar technologies. Understand your cookie preferences and how to manage them.',
 }
 
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
+
 const CookiePolicy = () => {
   const cookieTypes = [
     {
@@ -274,18 +278,9 @@ const CookiePolicy = () => {
               <p className="text-gray-700 mb-4">
                 Manage your cookie preferences
               </p>
-              <button 
-                onClick={() => {
-                  // This would trigger the cookie consent banner
-                  if (typeof window !== 'undefined') {
-                    // Trigger cookie settings modal
-                    console.log('Open cookie settings');
-                  }
-                }}
-                className="text-primary-600 hover:text-primary-700 font-semibold"
-              >
-                Manage Cookie Preferences
-              </button>
+              <p className="text-primary-600 font-semibold">
+                Use the cookie consent banner in the footer to manage your preferences
+              </p>
             </div>
           </div>
         </div>
