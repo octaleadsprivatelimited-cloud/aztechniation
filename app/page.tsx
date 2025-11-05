@@ -2,7 +2,7 @@ import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import Stats from '@/components/Stats'
-import CTA from '@/components/CTA'
+import { CallNowButton } from '@/components/CTA'
 
 export default function Home() {
   return (
@@ -11,7 +11,17 @@ export default function Home() {
       <Services />
       <Stats />
       <WhyChooseUs />
-      <CTA />
+      <section className="py-16 bg-primary-600">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Need Professional Appliance Repair?
+          </h2>
+          <p className="text-xl text-primary-100 mb-8">
+            Get expert repair services for all your electronics and home appliances.
+          </p>
+          <CallNowButton />
+        </div>
+      </section>
     </div>
   )
 }
