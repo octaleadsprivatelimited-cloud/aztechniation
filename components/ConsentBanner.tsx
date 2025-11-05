@@ -34,7 +34,6 @@ const ConsentBanner = () => {
     setConsent(newConsent)
     saveConsent(newConsent)
     setShowBanner(false)
-    updateGoogleConsent(newConsent)
   }
 
   const handleRejectAll = () => {
@@ -47,22 +46,16 @@ const ConsentBanner = () => {
     setConsent(newConsent)
     saveConsent(newConsent)
     setShowBanner(false)
-    updateGoogleConsent(newConsent)
   }
 
   const handleSavePreferences = () => {
     saveConsent(consent)
     setShowBanner(false)
     setShowSettings(false)
-    updateGoogleConsent(consent)
   }
 
   const saveConsent = (consentData: typeof consent) => {
     localStorage.setItem('cookie-consent', JSON.stringify(consentData))
-  }
-
-  const updateGoogleConsent = (consentData: typeof consent) => {
-    // Analytics consent handling removed
   }
 
   const toggleConsent = (type: keyof typeof consent) => {
