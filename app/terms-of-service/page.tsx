@@ -5,7 +5,16 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Terms of Service - AZ technician | Service Terms & Conditions',
   description: 'Read our terms of service and conditions for appliance repair services. Understand your rights and obligations when using AZ technician services.',
+  openGraph: {
+    title: 'Terms of Service - AZ technician',
+    description: 'Read our terms of service and conditions for appliance repair services.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 const TermsOfService = () => {
   const serviceTerms = [

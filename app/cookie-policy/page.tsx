@@ -5,6 +5,11 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Cookie Policy - AZ technician | Cookie Usage & Management',
   description: 'Learn about how AZ technician uses cookies and similar technologies. Understand your cookie preferences and how to manage them.',
+  openGraph: {
+    title: 'Cookie Policy - AZ technician',
+    description: 'Learn about how AZ technician uses cookies and similar technologies.',
+    type: 'website',
+  },
 }
 
 // Force static generation

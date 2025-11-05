@@ -5,7 +5,16 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Service Areas - AZ technician | Electronics & Appliance Repair Services in Hyderabad',
   description: 'We provide professional electronics and appliance repair services across all areas of Hyderabad including HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar, Kukatpally, Miyapur, Serilingampally, Chandanagar, Alwal, Malkajgiri, Dilsukhnagar, Uppal, Nagole, and more. Same-day service available.',
+  openGraph: {
+    title: 'Service Areas - AZ technician',
+    description: 'We provide professional electronics and appliance repair services across all areas of Hyderabad.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 const serviceAreas = [
   {

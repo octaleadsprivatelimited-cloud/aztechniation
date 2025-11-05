@@ -5,7 +5,16 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Warranty - AZ technician | 90-Day Service Warranty',
   description: 'Learn about our comprehensive warranty coverage for appliance repair services. 90-day warranty on all repairs with free re-service guarantee.',
+  openGraph: {
+    title: 'Warranty - AZ technician',
+    description: 'Learn about our comprehensive warranty coverage for appliance repair services.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 const Warranty = () => {
   const warrantyCoverage = [

@@ -5,6 +5,11 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Sitemap - AZ technician | Website Navigation',
   description: 'Complete sitemap of AZ technician website. Find all pages and services easily with our comprehensive site navigation.',
+  openGraph: {
+    title: 'Sitemap - AZ technician',
+    description: 'Complete sitemap of AZ technician website.',
+    type: 'website',
+  },
 }
 
 // Force static generation

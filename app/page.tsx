@@ -1,12 +1,27 @@
+import type { Metadata } from 'next'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import Stats from '@/components/Stats'
 import { CallNowButton } from '@/components/CTA'
 
+export const metadata: Metadata = {
+  title: 'AZ technician - Professional Electronics & Appliance Repair Services in Hyderabad',
+  description: 'Expert electronics and appliance repair services in Hyderabad. We repair ACs, washing machines, refrigerators, and all home appliances. Same-day service available. Trusted by 5000+ customers.',
+  openGraph: {
+    title: 'AZ technician - Professional Electronics & Appliance Repair Services in Hyderabad',
+    description: 'Expert electronics and appliance repair services in Hyderabad. Same-day service available.',
+    type: 'website',
+  },
+}
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
+
 export default function Home() {
   return (
-    <div>
+    <main>
       <Hero />
       <Services />
       <Stats />
@@ -22,6 +37,6 @@ export default function Home() {
           <CallNowButton />
         </div>
       </section>
-    </div>
+    </main>
   )
 }

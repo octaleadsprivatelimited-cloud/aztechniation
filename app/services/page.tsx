@@ -1,10 +1,16 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { GetQuoteButton } from '@/components/CTA'
 import { Wind, Refrigerator, Monitor, ArrowRight } from 'lucide-react'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Our Services - AZ technician | Electronics & Appliance Repair Services',
-  description: 'Professional electronics and appliance repair services in Hyderabad. We repair TVs, ACs, washing machines, refrigerators, and more. Expert technicians, same-day service.',
+  description: 'Professional electronics and appliance repair services in Hyderabad. We repair ACs, washing machines, refrigerators, and more. Expert technicians, same-day service.',
+  openGraph: {
+    title: 'Our Services - AZ technician',
+    description: 'Professional electronics and appliance repair services in Hyderabad.',
+    type: 'website',
+  },
 }
 
 // Force static generation

@@ -5,7 +5,16 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Customer Support - AZ technician | 24/7 Help & Support',
   description: 'Get help with your appliance repair service. Contact our customer support team 24/7 for assistance with bookings, tracking, and technical issues.',
+  openGraph: {
+    title: 'Customer Support - AZ technician',
+    description: 'Get help with your appliance repair service. Contact our customer support team 24/7.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 const CustomerSupport = () => {
   const supportMethods = [

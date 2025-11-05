@@ -1,9 +1,19 @@
+import type { Metadata } from 'next'
 import { Users, Award, Clock, Shield, Mail, Phone } from 'lucide-react'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'About Us - AZ technician | Electronics & Appliance Repair Services',
   description: 'Learn about AZ technician - Hyderabad\'s trusted electronics and appliance repair service. 15+ years of experience, expert technicians, same-day service.',
+  openGraph: {
+    title: 'About Us - AZ technician',
+    description: 'Learn about AZ technician - Hyderabad\'s trusted electronics and appliance repair service.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 export default function About() {
   return (

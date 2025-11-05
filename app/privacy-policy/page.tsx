@@ -5,7 +5,16 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Privacy Policy - AZ technician | Data Protection & Privacy',
   description: 'Learn how AZ technician protects your personal information and respects your privacy. Our comprehensive privacy policy outlines data collection and usage.',
+  openGraph: {
+    title: 'Privacy Policy - AZ technician',
+    description: 'Learn how AZ technician protects your personal information and respects your privacy.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 const PrivacyPolicy = () => {
   const dataWeCollect = [

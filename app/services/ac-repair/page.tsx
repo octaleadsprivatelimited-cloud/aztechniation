@@ -7,6 +7,11 @@ import ServiceImages from '@/components/ServiceImages'
 export const metadata: Metadata = {
   title: 'AC Repair Service Hyderabad | Samsung, LG, Daikin AC Repair | AZ technician',
   description: 'Professional AC repair service in Hyderabad. We repair Samsung, LG, Daikin, Voltas, Blue Star, Carrier ACs. Same-day service available in HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar. Call +91 91821 07334.',
+  openGraph: {
+    title: 'AC Repair Service Hyderabad | AZ technician',
+    description: 'Professional AC repair service in Hyderabad. Same-day service available.',
+    type: 'website',
+  },
 }
 
 // Force static generation

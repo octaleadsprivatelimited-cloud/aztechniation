@@ -5,7 +5,16 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Refund Policy - AZ technician | Money Back Guarantee',
   description: 'Learn about our refund policy and money-back guarantee for appliance repair services. Fair and transparent refund terms for customer satisfaction.',
+  openGraph: {
+    title: 'Refund Policy - AZ technician',
+    description: 'Learn about our refund policy and money-back guarantee for appliance repair services.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 const RefundPolicy = () => {
   const refundConditions = [

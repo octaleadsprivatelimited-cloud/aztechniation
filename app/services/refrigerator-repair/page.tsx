@@ -7,6 +7,11 @@ import ServiceImages from '@/components/ServiceImages'
 export const metadata: Metadata = {
   title: 'Refrigerator Repair Hyderabad | Samsung, LG, Whirlpool Refrigerator Repair | AZ technician',
   description: 'Professional refrigerator repair service in Hyderabad. We repair Samsung, LG, Whirlpool, Godrej refrigerators. Same-day service available in HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar. Call +91 91821 07334.',
+  openGraph: {
+    title: 'Refrigerator Repair Hyderabad | AZ technician',
+    description: 'Professional refrigerator repair service in Hyderabad. Same-day service available.',
+    type: 'website',
+  },
 }
 
 // Force static generation

@@ -1,11 +1,17 @@
+import type { Metadata } from 'next'
 import { Monitor, CheckCircle, Clock, Shield, Wrench, Star, Phone, MapPin } from 'lucide-react'
 import Link from 'next/link'
 import { GetQuoteButton } from '@/components/CTA'
 import ServiceImages from '@/components/ServiceImages'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Washing Machine Repair Hyderabad | Samsung, LG, Whirlpool Washing Machine Repair | AZ technician',
   description: 'Professional washing machine repair service in Hyderabad. We repair Samsung, LG, Whirlpool, IFB, Bosch washing machines. Same-day service available in HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar. Call +91 91821 07334.',
+  openGraph: {
+    title: 'Washing Machine Repair Hyderabad | AZ technician',
+    description: 'Professional washing machine repair service in Hyderabad. Same-day service available.',
+    type: 'website',
+  },
 }
 
 // Force static generation

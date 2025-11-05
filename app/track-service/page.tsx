@@ -1,6 +1,5 @@
 'use client'
 
-import type { Metadata } from 'next'
 import { useState } from 'react'
 import { Search, Clock, MapPin, User, Wrench, CheckCircle, AlertCircle, Package, Truck, Mail } from 'lucide-react'
 import Link from 'next/link'

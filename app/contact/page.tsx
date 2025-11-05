@@ -1,10 +1,20 @@
+import type { Metadata } from 'next'
 import ContactForm from '@/components/ContactForm'
 import { Mail, Clock, Phone } from 'lucide-react'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Contact Us - AZ technician | Electronics & Appliance Repair Services in Hyderabad',
   description: 'Contact AZ technician for professional electronics and appliance repair services. Email mra760063@gmail.com for same-day service.',
+  openGraph: {
+    title: 'Contact Us - AZ technician',
+    description: 'Contact AZ technician for professional electronics and appliance repair services.',
+    type: 'website',
+  },
 }
+
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
 
 export default function Contact() {
   return (
