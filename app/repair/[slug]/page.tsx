@@ -34,6 +34,151 @@ const repairPages = {
       'Expert Technicians',
       'Transparent Pricing'
     ]
+  },
+  'samsung-ac-repair': {
+    title: 'Samsung AC Repair Service',
+    brand: 'Samsung',
+    category: 'AC',
+    description: 'Professional Samsung AC repair service in Hyderabad. Expert technicians for all Samsung air conditioner models.',
+    issues: [
+      'Samsung AC Not Cooling',
+      'Samsung AC Gas Leak',
+      'Samsung AC Compressor Problem',
+      'Samsung AC Remote Not Working',
+      'Samsung AC Installation',
+      'Samsung AC Maintenance'
+    ],
+    models: [
+      'Samsung Split AC',
+      'Samsung Window AC',
+      'Samsung Inverter AC',
+      'Samsung Cassette AC',
+      'Samsung Ducted AC'
+    ],
+    features: [
+      'Same Day Service Available',
+      'Genuine Samsung Parts',
+      '90 Days Warranty',
+      'Free Diagnosis',
+      'Expert Technicians',
+      'Transparent Pricing'
+    ]
+  },
+  'lg-ac-repair': {
+    title: 'LG AC Repair Service',
+    brand: 'LG',
+    category: 'AC',
+    description: 'Professional LG AC repair service in Hyderabad. Expert technicians for all LG air conditioner models.',
+    issues: [
+      'LG AC Not Cooling',
+      'LG AC Gas Leak',
+      'LG AC Compressor Problem',
+      'LG AC Remote Not Working',
+      'LG AC Installation',
+      'LG AC Maintenance'
+    ],
+    models: [
+      'LG Split AC',
+      'LG Window AC',
+      'LG Inverter AC',
+      'LG Cassette AC',
+      'LG Ducted AC'
+    ],
+    features: [
+      'Same Day Service Available',
+      'Genuine LG Parts',
+      '90 Days Warranty',
+      'Free Diagnosis',
+      'Expert Technicians',
+      'Transparent Pricing'
+    ]
+  },
+  'daikin-ac-repair': {
+    title: 'Daikin AC Repair Service',
+    brand: 'Daikin',
+    category: 'AC',
+    description: 'Professional Daikin AC repair service in Hyderabad. Expert technicians for all Daikin air conditioner models.',
+    issues: [
+      'Daikin AC Not Cooling',
+      'Daikin AC Gas Leak',
+      'Daikin AC Compressor Problem',
+      'Daikin AC Remote Not Working',
+      'Daikin AC Installation',
+      'Daikin AC Maintenance'
+    ],
+    models: [
+      'Daikin Split AC',
+      'Daikin Window AC',
+      'Daikin Inverter AC',
+      'Daikin Cassette AC',
+      'Daikin Ducted AC'
+    ],
+    features: [
+      'Same Day Service Available',
+      'Genuine Daikin Parts',
+      '90 Days Warranty',
+      'Free Diagnosis',
+      'Expert Technicians',
+      'Transparent Pricing'
+    ]
+  },
+  'carrier-ac-repair': {
+    title: 'Carrier AC Repair Service',
+    brand: 'Carrier',
+    category: 'AC',
+    description: 'Professional Carrier AC repair service in Hyderabad. Expert technicians for all Carrier air conditioner models.',
+    issues: [
+      'Carrier AC Not Cooling',
+      'Carrier AC Gas Leak',
+      'Carrier AC Compressor Problem',
+      'Carrier AC Remote Not Working',
+      'Carrier AC Installation',
+      'Carrier AC Maintenance'
+    ],
+    models: [
+      'Carrier Split AC',
+      'Carrier Window AC',
+      'Carrier Inverter AC',
+      'Carrier Cassette AC',
+      'Carrier Ducted AC'
+    ],
+    features: [
+      'Same Day Service Available',
+      'Genuine Carrier Parts',
+      '90 Days Warranty',
+      'Free Diagnosis',
+      'Expert Technicians',
+      'Transparent Pricing'
+    ]
+  },
+  'voltas-ac-repair': {
+    title: 'Voltas AC Repair Service',
+    brand: 'Voltas',
+    category: 'AC',
+    description: 'Professional Voltas AC repair service in Hyderabad. Expert technicians for all Voltas air conditioner models.',
+    issues: [
+      'Voltas AC Not Cooling',
+      'Voltas AC Gas Leak',
+      'Voltas AC Compressor Problem',
+      'Voltas AC Remote Not Working',
+      'Voltas AC Installation',
+      'Voltas AC Maintenance'
+    ],
+    models: [
+      'Voltas Split AC',
+      'Voltas Window AC',
+      'Voltas Inverter AC',
+      'Voltas Cassette AC',
+      'Voltas Ducted AC'
+    ],
+    features: [
+      'Same Day Service Available',
+      'Genuine Voltas Parts',
+      '90 Days Warranty',
+      'Free Diagnosis',
+      'Expert Technicians',
+      'Transparent Pricing'
+    ]
   }
 }
 

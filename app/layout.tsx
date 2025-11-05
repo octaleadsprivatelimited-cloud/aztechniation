@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://appliancecares.in'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://appliancecares.in'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'AZ technician - Professional Electronics & Appliance Repair Services in Hyderabad',
     description: 'Expert electronics and appliance repair services in Hyderabad. We repair TVs, ACs, washing machines, refrigerators, laptops, mobiles, and all home appliances. Same-day service available in HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar, and all areas of Hyderabad. Trusted by 5000+ customers.',
-    url: 'https://appliancecares.in',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://appliancecares.in',
     siteName: 'AZ technician',
     images: [
       {
