@@ -183,17 +183,18 @@ const repairPages = {
 }
 
 interface RepairPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export async function generateMetadata({ params }: RepairPageProps): Promise<Metadata> {
-  const repair = repairPages[params.slug as keyof typeof repairPages]
+  const { slug } = await params
+  const repair = repairPages[slug as keyof typeof repairPages]
   
   if (!repair) {
     return {
-      title: 'Repair Service Not Found',
+      title: 'Repair Service Not Found - AZ technician',
     }
   }
 
@@ -208,8 +209,14 @@ export async function generateMetadata({ params }: RepairPageProps): Promise<Met
   }
 }
 
-export default function RepairPage({ params }: RepairPageProps) {
-  const repair = repairPages[params.slug as keyof typeof repairPages]
+export default async function RepairPage({ params }: RepairPageProps) {
+  const { slug } = await params
+  
+  if (!slug) {
+    notFound()
+  }
+  
+  const repair = repairPages[slug as keyof typeof repairPages]
   
   if (!repair) {
     notFound()
