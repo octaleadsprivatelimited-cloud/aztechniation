@@ -44,7 +44,7 @@ const ServiceImages = ({ serviceType = 'general' }: ServiceImagesProps) => {
         return (
             <Link
               key={index}
-              href={'href' in service ? service.href : '#'}
+              href={'href' in service && service.href ? service.href : '/services'}
               className="group relative block w-full transform hover:scale-105 transition-all duration-300"
               style={{ animationDelay: `${index * 0.1}s` }}
             >

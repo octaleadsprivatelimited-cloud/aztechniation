@@ -23,20 +23,14 @@ const Footer = () => {
 
   const company = [
     { name: 'About Us', href: '/about' },
-    { name: 'Our Team', href: '/team' },
-    { name: 'Careers', href: '/careers' },
-    { name: 'Testimonials', href: '/testimonials' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Press', href: '/press' },
   ]
 
   const support = [
     { name: 'Contact Us', href: '/contact' },
-    { name: 'FAQ', href: '/faq' },
     { name: 'Service Areas', href: '/service-areas' },
     { name: 'Book Service', href: '/book-service' },
     { name: 'Track Service', href: '/track-service' },
-    { name: 'Customer Support', href: '/support' },
+    { name: 'Customer Support', href: '/customer-support' },
   ]
 
   const legal = [
