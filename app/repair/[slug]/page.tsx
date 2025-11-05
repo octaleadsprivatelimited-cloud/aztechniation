@@ -212,7 +212,7 @@ export async function generateMetadata({ params }: RepairPageProps): Promise<Met
 export default async function RepairPage({ params }: RepairPageProps) {
   const { slug } = await params
   
-  if (!slug) {
+  if (!slug || typeof slug !== 'string') {
     notFound()
   }
   
