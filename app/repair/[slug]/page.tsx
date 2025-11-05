@@ -34,64 +34,6 @@ const repairPages = {
       'Expert Technicians',
       'Transparent Pricing'
     ]
-  },
-  'samsung-tv-repair': {
-    title: 'Samsung TV Repair Service',
-    brand: 'Samsung',
-    category: 'TV',
-    description: 'Expert Samsung TV repair service in Hyderabad. Professional repair for all Samsung television models.',
-    issues: [
-      'Samsung TV Not Starting',
-      'Samsung TV Screen Problem',
-      'Samsung TV Sound Issue',
-      'Samsung TV Remote Repair',
-      'Samsung TV Installation',
-      'Samsung TV Mounting'
-    ],
-    models: [
-      'Samsung LED TV',
-      'Samsung Smart TV',
-      'Samsung OLED TV',
-      'Samsung 4K TV',
-      'Samsung QLED TV'
-    ],
-    features: [
-      'Same Day Service Available',
-      'Genuine Samsung Parts',
-      '90 Days Warranty',
-      'Free Diagnosis',
-      'Expert Technicians',
-      'Transparent Pricing'
-    ]
-  },
-  'lg-washing-machine-repair': {
-    title: 'LG Washing Machine Repair Service',
-    brand: 'LG',
-    category: 'Washing Machine',
-    description: 'Professional LG washing machine repair service in Hyderabad. Expert repair for all LG washing machine models.',
-    issues: [
-      'LG Washing Machine Not Spinning',
-      'LG Washing Machine Water Leak',
-      'LG Washing Machine Drain Problem',
-      'LG Washing Machine Door Issue',
-      'LG Washing Machine Installation',
-      'LG Washing Machine Motor Problem'
-    ],
-    models: [
-      'LG Front Load Washing Machine',
-      'LG Top Load Washing Machine',
-      'LG Inverter Washing Machine',
-      'LG Twin Tub Washing Machine',
-      'LG Semi Automatic Washing Machine'
-    ],
-    features: [
-      'Same Day Service Available',
-      'Genuine LG Parts',
-      '90 Days Warranty',
-      'Free Diagnosis',
-      'Expert Technicians',
-      'Transparent Pricing'
-    ]
   }
 }
 

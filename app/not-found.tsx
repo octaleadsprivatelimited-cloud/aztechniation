@@ -50,12 +50,6 @@ export default function NotFound() {
           </h4>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             <Link
-              href="/services/tv-repair"
-              className="text-primary-600 hover:text-primary-700 text-sm font-medium transition-colors duration-200"
-            >
-              TV Repair
-            </Link>
-            <Link
               href="/services/ac-repair"
               className="text-primary-600 hover:text-primary-700 text-sm font-medium transition-colors duration-200"
             >
@@ -72,12 +66,6 @@ export default function NotFound() {
               className="text-primary-600 hover:text-primary-700 text-sm font-medium transition-colors duration-200"
             >
               Refrigerator
-            </Link>
-            <Link
-              href="/services/microwave-repair"
-              className="text-primary-600 hover:text-primary-700 text-sm font-medium transition-colors duration-200"
-            >
-              Microwave
             </Link>
             <Link
               href="/services"

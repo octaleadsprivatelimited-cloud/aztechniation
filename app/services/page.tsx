@@ -7,6 +7,10 @@ export const metadata = {
   description: 'Professional electronics and appliance repair services in Hyderabad. We repair TVs, ACs, washing machines, refrigerators, and more. Expert technicians, same-day service.',
 }
 
+// Force static generation
+export const dynamic = 'force-static'
+export const revalidate = false
+
 const ServicesPage = () => {
   const services = [
     {

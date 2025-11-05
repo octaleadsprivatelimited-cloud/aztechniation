@@ -82,11 +82,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Service pages
   const servicePages = [
     'ac-repair',
-    'tv-repair',
     'washing-machine-repair',
     'refrigerator-repair',
-    'microwave-repair',
-    'home-appliances',
   ]
 
   const serviceUrls = servicePages.map((service) => ({
