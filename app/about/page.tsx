@@ -11,9 +11,6 @@ export const metadata: Metadata = {
   },
 }
 
-// Force static generation
-export const dynamic = 'force-static'
-export const revalidate = false
 
 export default function About() {
   return (

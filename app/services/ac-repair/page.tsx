@@ -14,9 +14,6 @@ export const metadata: Metadata = {
   },
 }
 
-// Force static generation
-export const dynamic = 'force-static'
-export const revalidate = false
 
 const acBrands = [
   'Samsung', 'LG', 'Daikin', 'Voltas', 'Blue Star', 'Carrier', 'Hitachi', 'Whirlpool', 'Godrej', 'Haier'

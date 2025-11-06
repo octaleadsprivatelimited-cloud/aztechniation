@@ -14,9 +14,6 @@ export const metadata: Metadata = {
   },
 }
 
-// Force static generation
-export const dynamic = 'force-static'
-export const revalidate = false
 
 const refrigeratorBrands = [
   'Samsung', 'LG', 'Whirlpool', 'Godrej', 'Haier', 'Panasonic', 'TCL', 'Videocon', 'Intex', 'Onida'

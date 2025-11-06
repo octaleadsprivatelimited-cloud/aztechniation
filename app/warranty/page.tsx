@@ -12,9 +12,6 @@ export const metadata: Metadata = {
   },
 }
 
-// Force static generation
-export const dynamic = 'force-static'
-export const revalidate = false
 
 const Warranty = () => {
   const warrantyCoverage = [

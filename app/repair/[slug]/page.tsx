@@ -459,6 +459,3 @@ export async function generateStaticParams() {
   }))
 }
 
-// Force static generation for better performance
-export const dynamic = 'force-static'
-export const revalidate = false
