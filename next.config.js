@@ -16,6 +16,8 @@ const nextConfig = {
       },
     ],
   },
+  // Ensure proper routing
+  reactStrictMode: true,
 }
 
 module.exports = nextConfig
