@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect } from 'react'
 import Link from 'next/link'
 import { Home, Phone, Wrench, RefreshCw, AlertTriangle } from 'lucide-react'
 
@@ -10,10 +9,6 @@ interface ErrorProps {
 }
 
 export default function Error({ error, reset }: ErrorProps) {
-  useEffect(() => {
-    // Error handling without console output
-  }, [error])
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 flex items-center justify-center px-4">
       <div className="max-w-2xl mx-auto text-center">
