@@ -64,7 +64,6 @@ const ContactForm = () => {
     await new Promise(resolve => setTimeout(resolve, 2000))
 
     // Here you would typically send the data to your backend
-    console.log('Form submitted:', formData)
     
     setIsSubmitted(true)
     setIsSubmitting(false)
