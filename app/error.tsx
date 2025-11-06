@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Home, Phone, Wrench, RefreshCw, AlertTriangle } from 'lucide-react'
+import { Home, Phone, RefreshCw, AlertTriangle } from 'lucide-react'
 
 interface ErrorProps {
   error: Error & { digest?: string }

@@ -14,13 +14,30 @@ const ConsentBanner = () => {
   })
 
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') return
+    
     // Check if user has already made a choice
-    const hasConsented = localStorage.getItem('cookie-consent')
-    if (!hasConsented) {
+    try {
+      const hasConsented = localStorage.getItem('cookie-consent')
+      if (!hasConsented) {
+        setShowBanner(true)
+      } else {
+        const savedConsent = JSON.parse(hasConsented)
+        // Validate the parsed data structure
+        if (savedConsent && typeof savedConsent === 'object' && 
+            'necessary' in savedConsent && 'analytics' in savedConsent &&
+            'functional' in savedConsent && 'marketing' in savedConsent) {
+          setConsent(savedConsent)
+        } else {
+          // Invalid data, show banner again
+          setShowBanner(true)
+        }
+      }
+    } catch (error) {
+      // If JSON.parse fails, clear invalid data and show banner
+      localStorage.removeItem('cookie-consent')
       setShowBanner(true)
-    } else {
-      const savedConsent = JSON.parse(hasConsented)
-      setConsent(savedConsent)
     }
   }, [])
 

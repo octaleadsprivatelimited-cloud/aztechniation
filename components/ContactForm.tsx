@@ -1,7 +1,7 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
-import { Mail, Clock, Send, CheckCircle, Sparkles, Zap, Phone } from 'lucide-react'
+import { useState } from 'react'
+import { Mail, Clock, Send, CheckCircle, Phone } from 'lucide-react'
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -14,26 +14,6 @@ const ContactForm = () => {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
-  const [focusedField, setFocusedField] = useState<string | null>(null)
-  const [isVisible, setIsVisible] = useState(false)
-  const formRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true)
-        }
-      },
-      { threshold: 0.1 }
-    )
-
-    if (formRef.current) {
-      observer.observe(formRef.current)
-    }
-
-    return () => observer.disconnect()
-  }, [])
 
   const services = [
     'AC Repair',
