@@ -415,8 +415,9 @@ export default async function RepairPage({ params }: RepairPageProps) {
               <span className="font-semibold text-gray-900">Coverage Areas</span>
             </div>
             <p className="text-gray-700">
-              Pragathi Nagar, Kukatpally, Miyapur, Chandanagar, Nizampet, Bachupally, 
-              Gachibowli, Kondapur, HITEC City, Madhapur, and surrounding areas
+              Pragathi Nagar, Kukatpally, Miyapur, Lingampally, Chandanagar, Nizampet, Bachupally,
+              Gachibowli, Kondapur, HITEC City, Madhapur, Tolichowki, Mehdipatnam, Golconda,
+              Sangareddy, Patancheru, Zaheerabad, and surrounding areas
             </p>
           </div>
         </div>

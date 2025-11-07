@@ -19,9 +19,12 @@ export const hyderabadLocations = [
   'Kukatpally',
   'Miyapur',
   'Serilingampally',
+  'Lingampally',
   'Chandanagar',
   'Alwal',
   'Malkajgiri',
+  'Mehdipatnam',
+  'Tolichowki',
   'Lal Bahadur Nagar',
   'Dilsukhnagar',
   'Uppal',
@@ -32,6 +35,7 @@ export const hyderabadLocations = [
   'Ramachandrapuram',
   'Patancheru',
   'Sangareddy',
+  'Golconda',
   
   // North Hyderabad
   'Bolarum',
@@ -61,6 +65,7 @@ export const hyderabadLocations = [
   'Shamshabad',
   'Rajendra Nagar',
   'Kukatpally',
+  'Narsingi',
   'Balanagar',
   'Jeedimetla',
   'Qutbullapur',
@@ -73,6 +78,7 @@ export const hyderabadLocations = [
   'Nanakramguda',
   'Raidurg',
   'Khajaguda',
+  'Shankarpally',
   'Gachibowli',
   'Neknampur',
   
@@ -92,9 +98,11 @@ export const hyderabadLocations = [
   
   // South Hyderabad
   'Lakdikapul',
+  'Lakdi-ka-pul',
   'Khairatabad',
   'Malakpet',
   'Charminar',
+  'Old City',
   'Falaknuma',
   'Santoshnagar',
   'Chandrayangutta',
@@ -146,7 +154,10 @@ export const hyderabadLocations = [
   'LB Nagar',
   'Vanastalipuram',
   'Hayathnagar',
-  'Ramachandrapuram'
+  'Ramachandrapuram',
+  'Jogipet',
+  'Sadashivpet',
+  'Zaheerabad'
 ]
 
 export const hyderabadServiceKeywords = [

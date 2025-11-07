@@ -29,7 +29,8 @@ const serviceAreas = [
     areas: [
       'Pragathi Nagar', 'Bolarum', 'Bowenpally', 'Tarnaka', 'Neredmet',
       'Ameerpet', 'Somajiguda', 'Begumpet', 'Punjagutta', 'Khairatabad',
-      'Masab Tank', 'Nampally', 'Abids', 'Koti', 'Sultan Bazar',
+      'Masab Tank', 'Nampally', 'Mehdipatnam', 'Tolichowki', 'Golconda',
+      'Lakdi-ka-pul', 'Old City', 'Abids', 'Koti', 'Sultan Bazar',
       'Charminar', 'Malakpet', 'Dilsukhnagar', 'Kothapet', 'Saroornagar',
       'Boduppal', 'Kapra', 'Uppal Kalan', 'Peerzadiguda', 'Ghatkesar',
       'Medchal', 'Shamirpet', 'Sainikpuri', 'Vikarabad'
@@ -41,7 +42,8 @@ const serviceAreas = [
       'Kukatpally', 'Miyapur', 'Serilingampally', 'Chandanagar', 'Alwal',
       'Malkajgiri', 'Lal Bahadur Nagar', 'Dilsukhnagar', 'Uppal', 'Nagole',
       'LB Nagar', 'Vanastalipuram', 'Hayathnagar', 'Ramachandrapuram',
-      'Patancheru', 'Sangareddy', 'Moinabad', 'Shadnagar', 'Shamshabad',
+      'Patancheru', 'Sangareddy', 'Lingampally', 'Narsingi', 'Shankarpally',
+      'Moinabad', 'Shadnagar', 'Shamshabad',
       'Rajendra Nagar', 'Balanagar', 'Jeedimetla', 'Qutbullapur',
       'Bachupally', 'Nizampet', 'Gopanpally'
     ]
@@ -61,10 +63,11 @@ const serviceAreas = [
     areas: [
       'Medak', 'Sangareddy', 'Patancheru', 'Bachupally', 'Nizampet',
       'Qutbullapur', 'Balanagar', 'Jeedimetla', 'Kukatpally', 'Miyapur',
-      'Serilingampally', 'Chandanagar', 'Alwal', 'Malkajgiri',
+      'Serilingampally', 'Lingampally', 'Chandanagar', 'Alwal', 'Malkajgiri',
       'Lal Bahadur Nagar', 'Dilsukhnagar', 'Uppal', 'Nagole', 'LB Nagar',
       'Vanastalipuram', 'Hayathnagar', 'Ramachandrapuram', 'Patancheru',
-      'Sangareddy', 'Bolarum', 'Bowenpally', 'Tarnaka', 'Neredmet'
+      'Sangareddy', 'Jogipet', 'Sadashivpet', 'Zaheerabad', 'Bolarum',
+      'Bowenpally', 'Tarnaka', 'Neredmet'
     ]
   }
 ]
