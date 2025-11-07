@@ -51,9 +51,11 @@ const refrigeratorProblems = [
 ]
 
 const locations = [
-  'HITEC City', 'Gachibowli', 'Kondapur', 'Madhapur', 'Jubilee Hills', 'Banjara Hills', 
-  'Pragathi Nagar', 'Kukatpally', 'Miyapur', 'Serilingampally', 'Chandanagar', 'Alwal',
-  'Malkajgiri', 'Lal Bahadur Nagar', 'Dilsukhnagar', 'Uppal', 'Nagole', 'LB Nagar'
+  'HITEC City', 'Gachibowli', 'Kondapur', 'Madhapur', 'Jubilee Hills', 'Banjara Hills',
+  'Pragathi Nagar', 'Kukatpally', 'Miyapur', 'Serilingampally', 'Lingampally', 'Chandanagar',
+  'Alwal', 'Malkajgiri', 'Lal Bahadur Nagar', 'Dilsukhnagar', 'Uppal', 'Nagole', 'LB Nagar',
+  'Mehdipatnam', 'Tolichowki', 'Nampally', 'Lakdi-ka-pul', 'Old City', 'Golconda',
+  'Patancheru', 'Sangareddy', 'Jogipet', 'Sadashivpet', 'Zaheerabad', 'Shankarpally', 'Narsingi'
 ]
 
 export default function RefrigeratorRepair() {
