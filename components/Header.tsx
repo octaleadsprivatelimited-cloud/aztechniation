@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Menu, X, Phone } from 'lucide-react'
 
 const Header = () => {
@@ -34,45 +35,63 @@ const Header = () => {
           {/* Main navigation */}
           <header className={`fixed w-full z-50 transition-all duration-500 top-0 ${
             isScrolled
-              ? 'bg-black/95 backdrop-blur-xl shadow-xl border-b border-gray-800/50'
-              : 'bg-black/98 backdrop-blur-md shadow-md border-b border-gray-800'
+              ? 'bg-white shadow-xl border-b border-gray-200'
+              : 'bg-white shadow-md border-b border-gray-200'
           }`}>
         <nav>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 sm:h-18 min-h-[64px] sm:min-h-[72px]">
-            {/* Home Link */}
+            {/* Home Link / Logo */}
             <div className="flex-shrink-0">
-              <Link href="/" className="text-gray-300 hover:text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 hover:bg-gray-800">
-                Home
+              <Link href="/" className="flex items-center gap-2 px-2 py-2 rounded-lg transition-all duration-300">
+                <Image
+                  src="/logo.png"
+                  alt="AZ technician logo"
+                  width={220}
+                  height={70}
+                  className="h-12 w-auto sm:h-16"
+                  priority
+                />
               </Link>
             </div>
 
+            {/* Mobile Phone Number */}
+            <div className="flex-1 flex justify-center md:hidden">
+              <a
+                href="tel:+919182107334"
+                className="flex items-center gap-2 text-sm font-semibold text-gray-900 bg-gray-100 px-3 py-1 rounded-full shadow-sm hover:bg-primary-50 hover:text-primary-600 transition-all duration-300"
+              >
+                <Phone className="h-4 w-4" />
+                <span>+91 91821 07334</span>
+              </a>
+            </div>
+
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center">
-              <div className="ml-10 flex items-center space-x-2">
+            <div className="hidden md:flex items-center text-gray-900">
+              <div className="ml-10 flex items-center space-x-2 text-gray-900">
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-gray-300 hover:text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 hover:bg-gray-800 hover:shadow-sm"
+                    className="text-gray-900 hover:text-primary-600 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 hover:bg-gray-100 hover:shadow-sm"
                   >
                     {item.name}
                   </Link>
                 ))}
                 <div className="relative group">
-                  <button className="text-gray-300 hover:text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 flex items-center hover:bg-gray-800 hover:shadow-sm">
+                  <button className="text-gray-900 hover:text-primary-600 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 flex items-center hover:bg-gray-100 hover:shadow-sm">
                     Services
                     <svg className="ml-2 h-4 w-4 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
-                  <div className="absolute left-0 mt-2 w-72 bg-black/95 backdrop-blur-xl rounded-xl shadow-2xl border border-gray-800/50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                  <div className="absolute left-0 mt-2 w-72 bg-white rounded-xl shadow-2xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                     <div className="py-2">
                       {services.map((service) => (
                         <Link
                           key={service.name}
                           href={service.href}
-                          className="block px-6 py-3 text-sm text-gray-300 hover:bg-gray-800 hover:text-white transition-all duration-200 font-medium hover:translate-x-1"
+                          className="block px-6 py-3 text-sm text-gray-900 hover:bg-gray-100 hover:text-primary-600 transition-all duration-200 font-medium hover:translate-x-1"
                         >
                           {service.name}
                         </Link>

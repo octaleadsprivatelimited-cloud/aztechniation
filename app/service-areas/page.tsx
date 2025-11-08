@@ -30,7 +30,7 @@ const serviceAreas = [
       'Pragathi Nagar', 'Bolarum', 'Bowenpally', 'Tarnaka', 'Neredmet',
       'Ameerpet', 'Somajiguda', 'Begumpet', 'Punjagutta', 'Khairatabad',
       'Masab Tank', 'Nampally', 'Mehdipatnam', 'Tolichowki', 'Golconda',
-      'Lakdi-ka-pul', 'Old City', 'Abids', 'Koti', 'Sultan Bazar',
+      'Lakdi-ka-pul', 'Lakadi Ka Pul', 'Old City', 'Abids', 'Koti', 'Sultan Bazar',
       'Charminar', 'Malakpet', 'Dilsukhnagar', 'Kothapet', 'Saroornagar',
       'Boduppal', 'Kapra', 'Uppal Kalan', 'Peerzadiguda', 'Ghatkesar',
       'Medchal', 'Shamirpet', 'Sainikpuri', 'Vikarabad'
@@ -42,7 +42,7 @@ const serviceAreas = [
       'Kukatpally', 'Miyapur', 'Serilingampally', 'Chandanagar', 'Alwal',
       'Malkajgiri', 'Lal Bahadur Nagar', 'Dilsukhnagar', 'Uppal', 'Nagole',
       'LB Nagar', 'Vanastalipuram', 'Hayathnagar', 'Ramachandrapuram',
-      'Patancheru', 'Sangareddy', 'Lingampally', 'Narsingi', 'Shankarpally',
+      'Patancheru', 'Sangareddy', 'Lingampally', 'Narsingi', 'Shankarpally', 'Shankerpally',
       'Moinabad', 'Shadnagar', 'Shamshabad',
       'Rajendra Nagar', 'Balanagar', 'Jeedimetla', 'Qutbullapur',
       'Bachupally', 'Nizampet', 'Gopanpally'

@@ -55,7 +55,7 @@ const locations = [
   'Pragathi Nagar', 'Kukatpally', 'Miyapur', 'Serilingampally', 'Lingampally', 'Chandanagar',
   'Alwal', 'Malkajgiri', 'Lal Bahadur Nagar', 'Dilsukhnagar', 'Uppal', 'Nagole', 'LB Nagar',
   'Mehdipatnam', 'Tolichowki', 'Nampally', 'Lakdi-ka-pul', 'Old City', 'Golconda',
-  'Patancheru', 'Sangareddy', 'Jogipet', 'Sadashivpet', 'Zaheerabad', 'Shankarpally', 'Narsingi'
+  'Patancheru', 'Sangareddy', 'Jogipet', 'Sadashivpet', 'Zaheerabad', 'Shankarpally', 'Shankerpally', 'Narsingi'
 ]
 
 export default function RefrigeratorRepair() {

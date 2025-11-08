@@ -417,7 +417,7 @@ export default async function RepairPage({ params }: RepairPageProps) {
             <p className="text-gray-700">
               Pragathi Nagar, Kukatpally, Miyapur, Lingampally, Chandanagar, Nizampet, Bachupally,
               Gachibowli, Kondapur, HITEC City, Madhapur, Tolichowki, Mehdipatnam, Golconda,
-              Sangareddy, Patancheru, Zaheerabad, and surrounding areas
+              Sangareddy, Patancheru, Zaheerabad, Shankarpally, Shankerpally, and surrounding areas
             </p>
           </div>
         </div>

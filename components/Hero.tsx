@@ -24,7 +24,7 @@ const Hero = () => {
   ]
 
   return (
-    <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 overflow-hidden min-h-[100vh] sm:min-h-[85vh] lg:min-h-0 flex items-center">
       {/* Household Appliances Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -63,8 +63,8 @@ const Hero = () => {
         ))}
       </div>
       
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-12 sm:pt-24 sm:pb-16 lg:pt-28 lg:pb-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-10 sm:pt-24 sm:pb-16 lg:pt-28 lg:pb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-12 items-center">
           {/* Left Column - Content */}
           <div className={`space-y-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="space-y-4 sm:space-y-6">
@@ -164,7 +164,7 @@ const Hero = () => {
           <div className={`relative transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <div className="relative z-10">
               {/* Service Images Grid */}
-              <div className="bg-white/95 backdrop-blur-xl rounded-2xl sm:rounded-3xl shadow-2xl p-3 sm:p-4 lg:p-5 hover:shadow-3xl transition-all duration-500 hover:scale-105 transform border border-white/20">
+              <div className="bg-white/95 backdrop-blur-xl rounded-2xl sm:rounded-3xl shadow-2xl p-3 sm:p-4 lg:p-5 hover:shadow-3xl transition-all duration-500 hover:scale-105 transform border border-white/20 max-w-md sm:max-w-lg lg:max-w-none mx-auto lg:mx-0">
                 <ServiceImages serviceType="general" />
                 
                 {/* Central Call-to-Action */}

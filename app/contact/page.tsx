@@ -94,7 +94,7 @@ export default function Contact() {
               Our Service Areas in Hyderabad
             </h2>
             <p className="text-base sm:text-lg text-gray-600">
-              We provide professional electronics and appliance repair services across all areas of Hyderabad including HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar, Kukatpally, Miyapur, Serilingampally, Lingampally, Chandanagar, Alwal, Malkajgiri, Dilsukhnagar, Uppal, Nagole, Mehdipatnam, Tolichowki, Nampally, Lakdi-ka-pul, Old City, Golconda, Patancheru, Sangareddy, Jogipet, Sadashivpet, Zaheerabad, Shankarpally, and surrounding areas
+We provide professional electronics and appliance repair services across all areas of Hyderabad including HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar, Kukatpally, Miyapur, Serilingampally, Lingampally, Chandanagar, Alwal, Malkajgiri, Dilsukhnagar, Uppal, Nagole, Mehdipatnam, Tolichowki, Nampally, Lakdi-ka-pul, Lakadi Ka Pul, Old City, Golconda, Patancheru, Sangareddy, Jogipet, Sadashivpet, Zaheerabad, Shankarpally, Shankerpally, and surrounding areas
             </p>
           </div>
           
@@ -164,7 +164,7 @@ export default function Contact() {
                 Do you provide home service in all areas of Hyderabad?
               </h3>
               <p className="text-gray-600">
-                Yes, we provide doorstep repair service in all areas of Hyderabad including HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar, Kukatpally, Miyapur, Serilingampally, Lingampally, Chandanagar, Alwal, Malkajgiri, Dilsukhnagar, Uppal, Nagole, Mehdipatnam, Tolichowki, Nampally, Lakdi-ka-pul, Old City, Golconda, Patancheru, Sangareddy, Jogipet, Sadashivpet, Zaheerabad, Shankarpally, and surrounding areas.
+Yes, we provide doorstep repair service in all areas of Hyderabad including HITEC City, Gachibowli, Kondapur, Madhapur, Jubilee Hills, Banjara Hills, Pragathi Nagar, Kukatpally, Miyapur, Serilingampally, Lingampally, Chandanagar, Alwal, Malkajgiri, Dilsukhnagar, Uppal, Nagole, Mehdipatnam, Tolichowki, Nampally, Lakdi-ka-pul, Lakadi Ka Pul, Old City, Golconda, Patancheru, Sangareddy, Jogipet, Sadashivpet, Zaheerabad, Shankarpally, Shankerpally, and surrounding areas.
               </p>
             </div>
 

@@ -38,7 +38,7 @@ const ServiceImages = ({ serviceType = 'general' }: ServiceImagesProps) => {
   const isGeneral = serviceType === 'general' || !serviceType
 
   return (
-    <div className={`grid ${isGeneral ? 'grid-cols-1 sm:grid-cols-3' : 'grid-cols-2 sm:grid-cols-2 lg:grid-cols-4'} gap-3 sm:gap-4 lg:gap-5`}>
+    <div className={`grid ${isGeneral ? 'grid-cols-2 sm:grid-cols-3' : 'grid-cols-2 sm:grid-cols-2 lg:grid-cols-4'} gap-3 sm:gap-4 lg:gap-5`}>
       {currentImages.map((service, index) => {
         const Icon = service.icon
         return (
@@ -52,12 +52,12 @@ const ServiceImages = ({ serviceType = 'general' }: ServiceImagesProps) => {
              <div className="relative flex flex-col w-full">
                {/* Full Block Image - Landscape/Wide orientation */}
                 {'image' in service && service.image ? (
-                 <div className="relative w-full h-32 sm:h-40 lg:h-44 mb-2 sm:mb-2 overflow-hidden rounded-lg sm:rounded-xl shadow-md group-hover:shadow-lg transition-shadow duration-300">
+                 <div className="relative w-full h-32 sm:h-40 lg:h-44 mb-2 sm:mb-2 overflow-hidden rounded-lg sm:rounded-xl shadow-md group-hover:shadow-lg transition-shadow duration-300 bg-white">
                    <Image
                      src={service.image}
                      alt={service.label}
                      fill
-                     className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="object-contain sm:object-cover group-hover:scale-105 sm:group-hover:scale-110 transition-transform duration-300"
                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 30vw"
                      priority={index < 3}
                    />
